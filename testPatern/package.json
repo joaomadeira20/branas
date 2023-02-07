@@ -1,0 +1,33 @@
+{
+  "name": "testpatern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && jest dis/test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^28.1.0",
+    "@types/sinon": "^10.0.11",
+    "jest": "27.5.1",
+    "pg-promise": "^10.11.1",
+    "sinon": "^14.0.0",
+    "ts-jest": "^28.0.4",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "2.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "7.24.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-react-native-a11y": "2.0.4",
+    "prettier": "^2.6.2"
+  }
+}
